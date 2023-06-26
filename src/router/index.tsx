@@ -21,13 +21,6 @@ export const Router = () => {
           <Login />
         }
       />
-      <Route
-        path={routes.SignIn.path}
-        element={
-          <SigIn />
-        }
-      />
-      <Route path="*" element={<NoMatch />} />
     </Routes>
   );
 };
