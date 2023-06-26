@@ -9,7 +9,6 @@ import { SigIn } from "../UI/organisms/signin/Index";
 export const Router = () => {
   return (
     <Routes>
-   
       <Route
         path={routes.Home.path}
         element={
