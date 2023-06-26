@@ -1,0 +1,101 @@
+.SigIn-container{
+    width: 330px;
+    height: 311px;
+    position: absolute;
+    transform: translateY(30vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .SigIn-container-top{
+        width: 247px;
+        height: 72px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        h2{
+            color: #414141;
+            font-size: 24px;
+            font-family: Roboto;
+            line-height: 24px;
+            letter-spacing: 0.5px;
+        }
+        p{
+            color: #8A8A8A;
+            text-align: center;
+            font-size: 12px;
+            font-family: Poppins;
+            line-height: 20px;
+            letter-spacing: 0.1px;
+            font-weight: 400;
+        }
+        .blue{
+            color: #003F7D;
+        }
+    }
+    .SigIn-container-combine{
+        width: 330px;
+        height: 230px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 8px;
+
+        .OlvidoContrasea{
+            color: #8A8A8A;
+            text-align: end;
+            font-size: 12px;
+            font-family: Poppins;
+            line-height: 20px;
+            letter-spacing: 0.1px;
+            text-decoration-line: underline;
+        }
+
+        input{
+            width: 297px;
+            height: 41px;
+            border-radius: 20px;
+            border: 1px solid #ABABAB;
+            color: #8A8A8A;
+            text-align: start;
+            font-size: 14px;
+            font-family: Roboto;
+            line-height: 20px;
+            letter-spacing: 0.1px;
+            padding-left: 14px;
+            outline: none;
+        }
+
+        p{
+            color: var(--blue-3601, #003F7D);
+            text-align: start;
+            font-size: 16px;
+            font-family: Roboto;
+            line-height: 20px;
+            letter-spacing: 0.1px;
+            font-weight: 400;
+        }
+
+        .SigIn-container-mid{
+            width: 330px;
+            height: 74px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .SigIn-container-bottom{
+            width: 330px;
+            height: 69px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
