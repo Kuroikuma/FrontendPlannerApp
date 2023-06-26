@@ -4,8 +4,12 @@ const routes = {
       name: "Home",
     },
     Login: {
-        path: "/Account/Login",
+        path: "/account/login",
         name: "Login",
+      },
+    SignIn: {
+        path: "SignIn",
+        name: "SignIn",
       },
   };
   
